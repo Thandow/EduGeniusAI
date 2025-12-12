@@ -6,7 +6,7 @@ export class GeminiService {
   private ai: GoogleGenAI;
 
   constructor() {
-    const apiKey = process.env.API_KEY;
+    const apiKey = "AIzaSyDLPJVR6jFOIZJTBRF3K-m8L3St03AiM90";
     if (!apiKey) {
       console.error("API_KEY is missing from environment variables.");
     }
